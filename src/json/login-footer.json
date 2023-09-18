@@ -1,0 +1,28 @@
+{
+    "items":[
+        {
+            "item":"FAQ",
+            "link":"/"
+        },
+        {
+            "item":"Help Center",
+            "link":"/"
+        },
+        {
+            "item":"Terms of Use",
+            "link":"/"
+        },
+        {
+            "item":"Privacy",
+            "link":"/"
+        },
+        {
+            "item":"Cookie Preferences",
+            "link":"/"
+        },
+        {
+            "item":"Corporate Information",
+            "link":"/"
+        }
+    ]
+}
