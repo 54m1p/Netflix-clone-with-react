@@ -14,3 +14,48 @@
 li{
     list-style:none;
 }
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: grey;
+    cursor: pointer;
+}
+.site-button{
+    background-color: #e50914;
+    border: 0px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+.site-button:hover{
+    transition-timing-function:cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193,17,25);
+}
+/* .header-gradient{
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+} */
+
+.section{
+    height: 100vh;
+}
+.section-half{
+    height: 50%;
+}
+.center-xy{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+{
+    "menu":[
+        {
+            "name":"Home",
+            "path":"/browse"
+        },
+        {
+            "name":"TV Shows",
+            "path":"/shows"
+        },
+        {
+            "name":"Movies",
+            "path":"/Movies"
+        },
+        {
+            "name":"Latest",
+            "path":"/Latest"
+        },
+        {
+            "name":"My List",
+            "path":"/my-list"
+        },
+        {
+            "name":"Browse by Languages",
+            "path":"/original-audio"
+        }
+
+    ]
+}

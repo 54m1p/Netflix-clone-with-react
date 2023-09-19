@@ -1,0 +1,28 @@
+
+.card-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.box{
+    max-width: 230px;
+    position: relative;   
+    border-radius: 5px;
+}
+.box-hover{
+    display: none;
+    position: absolute;
+    left: -57px;
+    min-width: 345px;
+    background:#21232af7 ;
+    color: white;
+}
+.card-image:hover:nth-child(1){
+    transform: scale(1.5) ;
+    cursor: pointer;
+}
+.card-image:hover + .box-hover {
+    display: block;
+}
+.box-hover :nth-child(n){
+    padding: 10px;
+}

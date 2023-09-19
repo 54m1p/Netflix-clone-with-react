@@ -19,9 +19,9 @@
     }
 }
 @media only screen and (min-width: 700px){
-    .site-logo{
+    .sign-logo{
         margin-top: 30px;
-    }
+    }   
     .logo-div img{
             width: 167px;
             height: 45px;
@@ -38,9 +38,6 @@
         /* background-repeat: no-repeat; */
         /* background-size: 100% 100%; */
         z-index: -1;
-    }
-    .site-logo{
-        margin-top: 30px;
     }
     .logo-div img{
             width: 167px;
@@ -117,20 +114,12 @@ input:focus-visible{
     margin: 24px 0px 12px;
     
 }
-.site-button{
-    background-color: #e50914;
-    border: 0px solid;
-    border-radius: 5px;
-    font-size: 16px;
-    color: white;
-    padding: 16px;
-}
+
 .form-label{
     /* background-color: none; */
     left: 15px;
     top: 7px;
     color: #8c8c8c
-
 }   
 
 /* back ground image */
@@ -138,4 +127,15 @@ input:focus-visible{
     filter: brightness(40%);
     z-index: -1;
     position: absolute;
+}
+.remember-me{
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: 400;
+}
+.form-signin{
+    padding: 16px;
+}
+.check{
+    background-color: green;
 }

@@ -1,0 +1,9 @@
+.new-items{
+    display: flex;
+    justify-content: space-between;
+}
+.new-release{
+    position: absolute;
+    bottom: 20px;
+    background-color: transparent;
+}

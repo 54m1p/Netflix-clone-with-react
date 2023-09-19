@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+
+.signup-header{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent);
+}
+.signin-btn{
+    height: 32px;
+    padding: 4px 16px;
+}
+@media only screen and (min-width: 960px){
+ .banner-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+}
+.banner-text{
+    color: white;
+}
+.banner-text h1{
+    font-size: 46px;
+    font-weight: 900;
+}
+.banner-text p:nth-of-type(1){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.banner-text p:nth-of-type(2){
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.get-started{
+    gap: 1%;
+}
+.get-started:nth-child(n){
+    height: 48px;
+}
+.get-started input, .get-started button{
+    height: 100%;
+    border-radius: 4px;
+}
+.get-started input{
+    padding: 1rem;
+    min-width: 368px;
+    color: rgba(255, 255, 255, 0.7);
+    border: 0 solid transparent;
+    background: rgb(0, 0, 0);
+}

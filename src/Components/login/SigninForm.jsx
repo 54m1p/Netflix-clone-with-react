@@ -1,4 +1,5 @@
 import '../../css/login.css'
+import {Link} from 'react-router-dom'
 
 const SigninForm = ()=>{
     const handleChange =(val)=>{
@@ -17,8 +18,8 @@ const SigninForm = ()=>{
                         <input type="password" name='password' id="inp-pswd" onChange={handleChange(2)}/>
                         <label htmlFor="password" className='position-absolute form-label' id='label-pswd'>Password</label>    
                     </div>
-                    <div><button className="site-button">Sign In</button></div>
-                    <div className='d-flex justify-content-between align-items-center text-light'>
+                    <div><button className="site-button form-signin">Sign In</button></div>
+                    <div className='flex-between text-light remember-me'>
                         <div className='d-flex align-items-center'>
                         <input type="checkbox" id='remember-me' className='mr-1' />
                         <label htmlFor="remember-me">Remember me</label>
@@ -26,6 +27,9 @@ const SigninForm = ()=>{
                         <div>
                             <span>Need Help?</span>
                         </div>
+                    </div>
+                    <div>
+                        <p><span>New to Netflix? </span><span><Link to = '/' className='link'>Sign up now</Link></span></p>
                     </div>
                     </div>
                     <div className=''></div>

@@ -1,5 +1,5 @@
 import bgimg from '../../Images/login-bg.jpg'
-import '../../css/login.css'
+import '../../css/bgimg.css'
 
 const SignBgImg = ()=>{
     return(

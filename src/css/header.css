@@ -1,0 +1,28 @@
+.site-logo img{
+    width: 92px;
+    height: 30px;
+}
+.nav-bar{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+    position: absolute;
+    width: 100%;
+}
+.account-btn{
+    border: none;
+    background: transparent ;
+}
+.account-btn img{
+    width: 32px;
+    height: 32px;
+}
+.header-icons:is(:nth-child(1),:nth-child(2)){
+    font-size: 2rem;
+}
+@media only screen and (min-width:950px){
+    .head-banner{
+        /* height: 68px; */
+    }
+}
+.nav-menu{
+    padding: 10px 0;
+}

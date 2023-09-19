@@ -1,0 +1,10 @@
+.banner img{
+    object-fit: cover;
+    width: 100%; 
+    background: linear-gradient(77deg,rgba(0,0,0,.6),transparent 85%);
+    height: 80%;
+ } 
+.head-banner{
+    color: white;
+    position: relative;
+}
